@@ -2,19 +2,19 @@
 <%- include('partials/header.ejs') %>
 
 
-<div class="container">
+<div class="container p-5">
     <div class="card">
-        <div class="card-header">
-            <h1>Produtos</h1>
+        <div class="card-header" style="font-family:Poetsen One, sans-serif; background-color: #FFF8F1; color: #F8405E; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);">
+            <h1>Produtos disponíveis</h1>
         </div>
         <div class="card-body">
-            <table class="table table-bordered table-hover">
-                <thead class="table-dark">
+            <table class="table table-borderless table-hover">
+                <thead class="table">
                     <tr>
-                        <th>Imagem</th>
-                        <th>Nome:</th>
-                        <th>Preço:</th>
-                        <th>Categoria:</th>
+                        <th id="titulotabela" style="border-top-left-radius: 10px;">Imagem</th>
+                        <th id="titulotabela">Nome:</th>
+                        <th id="titulotabela" >Preço:</th>
+                        <th id="titulotabela" style="border-top-right-radius: 10px;">Categoria:</th>
                     </tr>
                 </thead>
                 <tbody>

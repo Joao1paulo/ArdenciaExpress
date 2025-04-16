@@ -8,6 +8,8 @@ const app = express(); // Iniciando o Express
 
 // Importando os controllers (onde estão as rotas)
 import ProdutosController from "./controllers/ProdutosController.js";
+import ClientesController from "./controllers/ClientesController.js";
+import PedidosController from "./controllers/PedidosController.js";
 
 // CONFIGURANDO A VIEW ENGINE - EJS
 app.set("view engine", "ejs");
@@ -24,6 +26,8 @@ app.get("/", (req, res) => {
 
 // Configurando o express para utilizar as rotas dos Controllers
 app.use("/", ProdutosController);
+app.use("/", ClientesController);
+app.use("/", PedidosController);
 
 // Iniciando o servidor da aplicação na porta 8080
 // O método listen do Express inicia um servidor

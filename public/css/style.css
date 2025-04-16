@@ -1,6 +1,10 @@
-* {
-    color: red;
+
+
+#titulotabela{
+    background-color: #F8405E;
+    color: #FFF8F1
 }
+
 
 .poetsen-one-regular {
     font-family: "Poetsen One", sans-serif;
